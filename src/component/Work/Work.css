@@ -1,0 +1,58 @@
+.work {
+    text-align: start;
+    /* background-image: linear-gradient(to right, rgb(1, 43, 1), rgb(44, 78, 44)); */
+    background-color: darkcyan;
+    border-radius: 0.5rem;
+    height: 18rem;
+}
+
+.work img {
+    width: 100%;
+    height: 55%;
+}
+
+.work-info {
+    margin: 0.5rem 1rem 0 1rem;
+    color: aliceblue;
+}
+
+.work h3 {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0rem;
+}
+
+.work p {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+    color: rgb(201, 201, 201);
+}
+
+.work-buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 2%;
+}
+
+.work-info button {
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    border: none;
+}
+
+.add-btn {
+    background-color: rgb(202, 202, 13);
+
+}
+
+.rmv-btn {
+
+    background-color: rgb(255, 153, 0);
+}
+
+.add-btn:hover {
+    background-color: yellow;
+}
+
+.rmv-btn:hover {
+    background-color: rgb(255, 208, 0);
+}

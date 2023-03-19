@@ -1,0 +1,19 @@
+.aside {
+    color: black;
+    width: 25vw;
+    position: sticky;
+    top: 0;
+    height: 100%;
+    /* background-color: black; */
+}
+
+.show-selected-works-btn {
+    background-color: darkcyan;
+    width: 90%;
+    margin: 5%;
+    height: 3rem;
+    color: aliceblue;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5rem;
+}

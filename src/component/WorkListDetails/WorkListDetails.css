@@ -1,0 +1,19 @@
+.work-list-details {
+    margin: 5%;
+    margin-top: 10%;
+    text-align: start;
+    color: darkcyan;
+}
+
+.work-list-details div {
+    background-color: lightcyan;
+    padding: 3% 5%;
+    margin: 5%;
+    margin-left: 0;
+    border-radius: 0.5rem;
+}
+
+.work-list-details div p {
+    display: flex;
+    justify-content: space-between;
+}

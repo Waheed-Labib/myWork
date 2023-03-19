@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Tread Mill",
+        "img": "./data-images/tread-mill.png",
+        "time": 15
+    },
+    {
+        "id": 2,
+        "name": "Watch Tutorials",
+        "img": "./data-images/watch-tutorials.png",
+        "time": 30
+    },
+    {
+        "id": 3,
+        "name": "Doing Projects",
+        "img": "./data-images/doing-projects.png",
+        "time": 45
+    },
+    {
+        "id": 4,
+        "name": "Translation",
+        "img": "./data-images/translate.png",
+        "time": 30
+    },
+    {
+        "id": 5,
+        "name": "Reading Literature",
+        "img": "./data-images/reading-literature.png",
+        "time": 30
+    },
+    {
+        "id": 6,
+        "name": "Cooking",
+        "img": "./data-images/cooking.png",
+        "time": 45
+    }
+]

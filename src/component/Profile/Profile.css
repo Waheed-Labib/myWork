@@ -1,0 +1,30 @@
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: darkcyan;
+    color: aliceblue;
+    border-radius: 0.5rem;
+    border-top-right-radius: 0;
+}
+
+.profile img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+}
+
+.profile h4 {
+    margin: 0;
+}
+
+.profile p {
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+.profile-info {
+    text-align: start;
+    margin-left: 0.5rem;
+}

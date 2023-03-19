@@ -1,12 +1,12 @@
 import React from 'react';
 import './WorkListDetails.css'
 
-const WorkListDetails = ({ breakTime }) => {
+const WorkListDetails = ({ breakTime, totalTime }) => {
     return (
         <div className='work-list-details'>
             <h3>Activity List Details</h3>
             <div>
-                <p>Total Time : <span>70 min</span></p>
+                <p>Total Time : <span>{totalTime} min</span></p>
             </div>
 
             <div>

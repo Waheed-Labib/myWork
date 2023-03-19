@@ -3,7 +3,7 @@ import Header from './component/Header/Header';
 import Aside from './component/Aside/Aside';
 import Works from './component/Works/Works'
 import { useState, useEffect } from 'react';
-import Footer from './component/Footer/Footer';
+import QuesAnswers from './component/QuesAnswers/QuesAnswers';
 
 function App() {
   const [profile, setProfile] = useState({});
@@ -13,15 +13,21 @@ function App() {
       .then(data => setProfile(data))
   }, [])
 
+  const [totalTime, setTotalTime] = useState(0);
+
+  const handleAddToList = (work) => {
+    setTotalTime(totalTime + work.time)
+  }
 
   return (
     <div className="App">
       <Header></Header>
       <div className='main-body'>
-        <Works profile={profile}></Works>
-        <Aside profile={profile}></Aside>
+        <Works profile={profile} handleAddToList={handleAddToList}></Works>
+        <Aside profile={profile} totalTime={totalTime}></Aside>
+
       </div>
-      {/* <Footer></Footer> */}
+      <QuesAnswers></QuesAnswers>
     </div>
   );
 }

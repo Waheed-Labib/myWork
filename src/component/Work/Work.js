@@ -1,7 +1,7 @@
 import React from 'react';
 import './Work.css'
 
-const Work = ({ work }) => {
+const Work = ({ work, handleAddToList }) => {
     const { img, name, time } = work;
     return (
         <div className='work'>
@@ -10,7 +10,7 @@ const Work = ({ work }) => {
                 <h3>{name}</h3>
                 <p>Estimated Time : {time} min</p>
                 <div className='work-buttons'>
-                    <button className='add-btn'>Add to List</button>
+                    <button onClick={() => { handleAddToList(work) }} className='add-btn'>Add to List</button>
                     <button className='rmv-btn'>Remove Work</button>
                 </div>
             </div>

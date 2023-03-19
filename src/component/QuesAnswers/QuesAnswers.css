@@ -1,0 +1,12 @@
+.ques-answers {
+    background-color: rgb(5, 5, 37);
+    color: aliceblue;
+    margin-top: 5%;
+    padding: 5%;
+    text-align: start;
+}
+
+.ques-answers h3 {
+    color: yellowgreen;
+    font-weight: 900;
+}

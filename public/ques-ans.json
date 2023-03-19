@@ -1,0 +1,14 @@
+[
+    {
+        "ques": "How Does React Work?",
+        "ans": "React works via Virtual DOM.  Instead of manipulating the browser's DOM directly, React creates a virtual DOM in memory, where it does all the necessary manipulating, before making the changes in the browser DOM. React finds out what changes have been made, and changes only what needs to be changed. React uses JSX, which is a JavaScript syntax extension used in React element creation. Developers employ it to embed HTML-like code in JavaScript objects. React divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props. Another important thing is State Management. A state is a JavaScript object that represents a part of a component. It changes whenever a user interacts with the application, rendering a new UI to reflect the modifications."
+    },
+    {
+        "ques": "What are the differences between props and state?",
+        "ans": "Props are read-only components. It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It allows passing data from one component to other components. It is similar to function arguments and can be passed to the component the same way as arguments passed in a function. Props are immutable so we cannot modify the props from inside the component. On the other hand, the state is an updatable structure that is used to contain data or information about the component and can change over time. The change in state can happen as a response to user action or system event.  It represents the component's local state or information. It can only be accessed or modified inside the component or by the component directly."
+    },
+    {
+        "ques": "What are the uses of useEffect other than loading data through api?",
+        "ans": "The useEffect Hook allows you to perform side effects in your components. Besides fetching data, some other examples of side effects are: directly updating the DOM, and timers. Moreover, you can think of useEffect Hook as componentDidMount, componentDidUpdate, and componentWillUnmount combined."
+    }
+]

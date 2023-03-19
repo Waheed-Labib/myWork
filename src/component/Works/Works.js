@@ -4,7 +4,7 @@ import './Works.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
-const Works = ({ profile }) => {
+const Works = ({ profile, handleAddToList }) => {
     const { firstname } = profile;
 
     const [works, setWorks] = useState([]);
@@ -32,7 +32,7 @@ const Works = ({ profile }) => {
 
             <div className='works-body'>
                 {
-                    works.map(work => <Work key={work.id} work={work}></Work>)
+                    works.map(work => <Work key={work.id} work={work} handleAddToList={handleAddToList}></Work>)
                 }
             </div>
             <div className='show-all-btn-div'>

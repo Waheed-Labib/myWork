@@ -1,12 +1,26 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 30vh;
     background-image: linear-gradient(to right, rgb(60, 85, 19), rgb(42, 68, 1));
 }
 
-.header img {
-    margin-left: 5%;
+.header-icon {
+    font-size: 2rem;
+}
+
+.website-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    margin: 5%;
+}
+
+.website-name h1 {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 nav {

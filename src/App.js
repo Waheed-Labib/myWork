@@ -13,6 +13,7 @@ function App() {
       .then(data => setProfile(data))
   }, [])
 
+
   return (
     <div className="App">
       <Header></Header>

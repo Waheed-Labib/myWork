@@ -7,13 +7,31 @@
     /* background-color: black; */
 }
 
-.show-selected-works-btn {
+.aside-buttons {
+    margin: 5%;
+    margin-left: 0;
+}
+
+.aside-button {
     background-color: darkcyan;
     width: 90%;
-    margin: 5%;
     height: 3rem;
     color: aliceblue;
     font-weight: 600;
     border: none;
     border-radius: 0.5rem;
+    margin-top: 2%;
+}
+
+.activity-completed-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 5%;
+    background-color: black;
+}
+
+.activity-completed-btn:hover {
+    background-color: green;
 }

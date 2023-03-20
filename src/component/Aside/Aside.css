@@ -4,7 +4,10 @@
     position: sticky;
     top: 0;
     height: 100%;
-    /* background-color: black; */
+}
+
+.profile-and-add-break {
+    margin: 1rem;
 }
 
 .aside-buttons {
@@ -34,4 +37,75 @@
 
 .activity-completed-btn:hover {
     background-color: green;
+}
+
+@media screen and (max-width:950px) {
+    .aside {
+        display: flex;
+        width: 100%;
+        position: static;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+
+    .aside-buttons {
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .aside-button {
+        background-color: darkcyan;
+        width: 90%;
+        height: 3rem;
+        color: aliceblue;
+        font-weight: 600;
+        border: none;
+        border-radius: 0.5rem;
+        margin-top: 2%;
+    }
+
+    .activity-completed-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-left: 5%;
+        background-color: black;
+    }
+
+}
+
+@media screen and (max-width:950px) {
+
+    .aside-buttons {
+        margin: 0;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .activity-completed-btn {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width:780px) {
+    .aside {
+        flex-direction: column;
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aside-buttons {
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .aside-button {
+        width: 20rem;
+    }
 }

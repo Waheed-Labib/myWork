@@ -43,8 +43,11 @@ const Aside = ({ profile, totalTime }) => {
 
     return (
         <div className='aside'>
-            <Profile profile={profile}></Profile>
-            <AddBreak handleAddBreak={handleAddBreak}></AddBreak>
+            <div className='profile-and-add-break'>
+                <Profile profile={profile}></Profile>
+                <AddBreak handleAddBreak={handleAddBreak}></AddBreak>
+            </div>
+
             <WorkListDetails breakTime={breakTime} totalTime={totalTime}></WorkListDetails>
             <div className='aside-buttons'>
                 <button className='aside-button'>Show Selected Activities</button>

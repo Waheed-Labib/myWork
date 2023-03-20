@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     padding: 1rem;
-    margin: 1rem;
+    /* margin: 1rem; */
     background-color: darkcyan;
     color: aliceblue;
     border-radius: 0.5rem;
@@ -27,4 +27,11 @@
 .profile-info {
     text-align: start;
     margin-left: 0.5rem;
+}
+
+@media screen and (max-width:506px) {
+    .profile {
+        margin-top: 2rem;
+        width: 20rem;
+    }
 }

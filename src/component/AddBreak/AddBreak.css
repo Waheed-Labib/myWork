@@ -1,6 +1,6 @@
 .add-break {
     margin-top: 10%;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     text-align: start;
     color: darkcyan;
 }
@@ -27,4 +27,37 @@
     justify-content: center;
     align-items: center;
     font-weight: 600;
+}
+
+@media screen and (max-width:996px) {
+
+    .break-options {
+        gap: 0.2rem;
+        padding: 1%;
+    }
+
+    .break-options button {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 1.25rem;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .add-break {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:506px) {
+    .add-break {
+        margin-top: 2rem;
+    }
+
+    .break-options {
+        height: 3.5rem;
+        align-items: center;
+        width: 22rem;
+    }
 }

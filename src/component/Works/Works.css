@@ -1,6 +1,8 @@
 .works {
     width: 80vw;
-    background-color: aliceblue
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
 }
 
 .works-header {
@@ -77,4 +79,72 @@
 
 .show-all-btn:hover {
     background-color: rgb(2, 187, 187);
+}
+
+@media screen and (max-width:1082px) {
+
+    .works {
+        gap: 4rem;
+    }
+
+    .works-heading h1 {
+        margin-bottom: 0;
+    }
+
+    .works-body {
+        margin-top: 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .show-all-btn {
+        font-size: 0.7rem;
+        height: 2.5rem;
+        width: 7rem;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .works {
+        width: 100vw;
+        gap: 2rem;
+    }
+
+    .works-body {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .show-all-btn-div {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .show-all-btn {
+        margin-top: 2%;
+        font-size: 0.8rem;
+        height: 2.8rem;
+        width: 8rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .works-body {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .show-all-btn-div {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width:506px) {
+    .works-body {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .show-all-btn {
+        margin-top: 23rem;
+        font-size: 0.8rem;
+        height: 2.8rem;
+        width: 8rem;
+    }
 }

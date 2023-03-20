@@ -4,6 +4,8 @@ import Aside from './component/Aside/Aside';
 import Works from './component/Works/Works'
 import { useState, useEffect } from 'react';
 import QuesAnswers from './component/QuesAnswers/QuesAnswers';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [profile, setProfile] = useState({});
@@ -15,8 +17,14 @@ function App() {
 
   const [totalTime, setTotalTime] = useState(0);
 
+  const showToast = () => {
+    toast.success('Added ')
+  };
+
+
   const handleAddToList = (work) => {
-    setTotalTime(totalTime + work.time)
+    setTotalTime(totalTime + work.time);
+    showToast();
   }
 
   return (

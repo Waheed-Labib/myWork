@@ -29,15 +29,17 @@ const Works = ({ profile, handleAddToList }) => {
                 </button>
             </div>
 
-
             <div className='works-body'>
                 {
                     works.map(work => <Work key={work.id} work={work} handleAddToList={handleAddToList}></Work>)
                 }
             </div>
+
             <div className='show-all-btn-div'>
                 <button className='show-all-btn'>Show All</button>
             </div>
+
+
 
         </div>
     );

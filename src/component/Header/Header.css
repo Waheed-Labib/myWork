@@ -44,3 +44,14 @@ nav a {
 nav a:hover {
     border: 1px solid white;
 }
+
+@media screen and (max-width:490px) {
+    nav {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    nav a {
+        padding: 0.3rem;
+    }
+}

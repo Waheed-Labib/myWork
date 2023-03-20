@@ -17,3 +17,25 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 950px) {
+    .work-list-details {
+        margin: 0;
+        margin-left: 1rem;
+
+    }
+
+    .work-list-details div {
+        width: 15rem;
+    }
+
+    .work-list-details h3 {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 506px) {
+    .work-list-details div {
+        width: 15rem;
+    }
+}
